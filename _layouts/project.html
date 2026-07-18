@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="projects-page">
+  <h1>Projects</h1>
+  
+  <div class="projects-list">
+    <ul>
+      {% for project in site.projects %}
+        <li>
+          <h2><a href="{{ project.url }}">{{ project.title | default: "Project" }}</a></h2>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

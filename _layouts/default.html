@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div data-controller="loader" data-loader-duration-value="2000">
+      <div class="loader-wrapper" data-loader-target="wrapper">
+        <div class="loader">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+  </body>
+
+</html>

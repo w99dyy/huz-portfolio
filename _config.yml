@@ -22,8 +22,8 @@ title: Huzaifa
 email: huzskywalker@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   Law student, Digital Artist and Ruby on Rails developer.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://huzaifa-i.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/huz-portfolio" # the subpath of your site, e.g. /blog
+url: "https://w99dyy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  w99dyy
 livereload: true

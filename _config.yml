@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Law student, Digital Artist and Ruby on Rails developer.
 baseurl: "/huz-portfolio" # the subpath of your site, e.g. /blog
 url: "https://w99dyy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  w99dyy
+x_username: weedyyart
+github_username: w99dyy
 livereload: true
 # Build settings
 theme: minima

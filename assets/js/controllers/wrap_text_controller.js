@@ -8,7 +8,7 @@ export default class extends Controller {
     
     setTimeout(() => {
       this.wrapText()
-    }, 200)
+    }, 50)
 
   }
 
@@ -20,7 +20,7 @@ export default class extends Controller {
   });
 
   animate(chars, {
-    y: ['75%', '20%'],
+    y: ['75%', '0%'],
     duration: 150,
     ease: 'out(3)',
     delay: stagger(50),
